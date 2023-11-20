@@ -11,7 +11,7 @@
 
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/fotoParque"
@@ -24,10 +24,11 @@
 
     <TextView
         android:id="@+id/tvNombre"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="164dp"
+        android:layout_marginLeft="152dp"
         android:layout_marginTop="8dp"
+        android:layout_marginRight="152dp"
         android:text="Nombre"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -36,10 +37,11 @@
 
     <TextView
         android:id="@+id/tvDescripcion"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="152dp"
         android:layout_marginTop="16dp"
+        android:layout_marginRight="152dp"
         android:text="Descripcion"
         android:textAlignment="center"
         app:layout_constraintLeft_toLeftOf="parent"
